@@ -12,8 +12,8 @@ string album[]={"EXO - The War",
 		"Aespa - SAVAGE The 1st Mini Album", 
 		"NCT - Universe",
 		"ONEW - DICE The 2nd Mini Album",
-		"Baekhyun - BAMBI the 3rd Mini Album"}
-int harga[]={275000, 320000, 289000, 312000, 278000, 315000, 273000, 326000, 265000, 284000}
+		"Baekhyun - BAMBI the 3rd Mini Album"};
+int harga[]={275000, 320000, 289000, 312000, 278000, 315000, 273000, 326000, 265000, 284000};
 
 int main(){
 	
