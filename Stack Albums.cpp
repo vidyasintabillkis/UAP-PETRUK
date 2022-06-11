@@ -8,7 +8,7 @@ string album[]={"EXO - The War",
 		"NCT DREAM - Hot Sauce",
 		"EXO - Don't Mess Up My Tempo",
 	       }
-int harga[]={275000, 320000}
+int harga[]={275000, 320000, 280000, 300000, }
 
 int main(){
 	
