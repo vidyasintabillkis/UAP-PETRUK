@@ -16,6 +16,15 @@ string album[]= {"EXO - The War",
 
 int harga[]= {275000, 320000, 289000, 312000, 278000, 315000, 273000, 326000, 265000, 284000};
 
+void daftar(){
+    cout << "=====================================\n"
+         << "Daftar album yang tersedia:\n";
+    for (int i=0; i < 10; i++){
+        cout << i+1 <<". "<< album[i] << endl;
+    }
+    cout << "=====================================";
+}
+
 int main(){
 	
 }
