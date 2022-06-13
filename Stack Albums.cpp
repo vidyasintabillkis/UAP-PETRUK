@@ -25,6 +25,19 @@ void daftar(){
     cout << "=====================================";
 }
 
+void push (){
+	cout << "Pilih : ";
+	cin >> input;
+	if (input > 10){
+		cout << "Album tidak tersedia!" << endl;
+	}
+	else {
+		tumpukan.push(input);
+		total = total + harga[input-1];
+	}
+	getch();
+}
+
 void size(){
 	if (!tumpukan.empty()){
 		cout << "Ada " << tumpukan.size() << " album di dalam tumpukan anda saat ini.\n";
