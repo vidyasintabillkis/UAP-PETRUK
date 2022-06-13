@@ -25,6 +25,16 @@ void daftar(){
     cout << "=====================================";
 }
 
+void size(){
+	if (!tumpukan.empty()){
+		cout << "Ada " << tumpukan.size() << " album di dalam tumpukan anda saat ini.\n";
+	}
+	else{
+		cout << "Tumpukan kosong\n";
+	}
+	getch();
+}
+
 int main(){
 	
 }
