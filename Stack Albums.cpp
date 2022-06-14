@@ -22,7 +22,8 @@ int total = 0, input;
 void print(stack<int> x){
     stack<int> xy = x;
 	  while (!xy.empty()) {
-        cout << ">> "<< album[xy.top() - 1]<<endl; cout << "   Harga:  Rp. " << harga[xy.top() - 1] << endl;
+        cout << ">> " << album[xy.top() - 1] << endl; 
+	cout << "   Harga:  Rp. " << harga[xy.top() - 1] << endl;
         xy.pop();
     }
 }
@@ -51,7 +52,7 @@ void push (){
 
 void pop(){
 	if(!tumpukan.empty()){
-        cout << "Data dihapus.\n";
+        cout << "Data dihapus. \n";
 		tumpukan.pop();
 		total = total-harga[input-1];
 	}else{
@@ -96,7 +97,7 @@ void display(){ //berfungsi untuk menampilkan pilihan menu
 int main(){
 	int choose;
 	do {
-        cout << "Program pembelian album"<< endl;
+        cout << "Program pembelian album" << endl;
         if(!tumpukan.empty()){
             cout << "Daftar tumpukan anda: " << endl ;
             print(tumpukan);
@@ -105,7 +106,7 @@ int main(){
         }
 	daftar();
         display();
-	cout << "\n\n>> Pilih: "; 
+	cout << "\n\n >> Pilih: "; 
 	cin >> choose;
         switch (choose){
 	case 1:
