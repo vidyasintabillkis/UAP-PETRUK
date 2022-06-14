@@ -95,7 +95,7 @@ void display(){ //berfungsi untuk menampilkan pilihan menu
 
 int main(){
 	int choose;
-    do {
+	do {
         cout << "Program pembelian album"<< endl;
         if(!tumpukan.empty()){
             cout << "Daftar tumpukan anda: " << endl ;
@@ -103,6 +103,8 @@ int main(){
         }else {
             cout << "[kosong]\n";
         }
+	daftar();
+        display();
 	    
 	return 0; 
 }
