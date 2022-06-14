@@ -115,7 +115,16 @@ int main(){
 	case 2:
                 pop();
                 break;
-			
+	case 3:
+                size();
+                break;
+	case 4:
+            	pay();
+            	break;
+	default:
+                cout << "Pilihan tidak ada\nMasukan pilihan sesuai dengan daftar" << endl;
+                getch();
+                break;	
 	}
 	system("cls"); 
 	}while(choose !=4);
