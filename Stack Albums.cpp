@@ -111,9 +111,11 @@ int main(){
         switch (choose){
 	case 1:
             	push();
-            	break;
-	
-			
+            	break;	
+	case 2:
+                pop();
+                break;
+		
 	}while(choose !=4);
 	return 0; 
 }
