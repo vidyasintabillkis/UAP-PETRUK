@@ -55,11 +55,7 @@ void pop(){
 		tumpukan.pop();
 		total = total-harga[input-1];
     }
-	else{
-        cout << "Tumpukan kosong\n";
-    }
-	getch();
-}
+	
 
 void size(){
 	if (!tumpukan.empty()){
