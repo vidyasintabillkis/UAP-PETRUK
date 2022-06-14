@@ -105,8 +105,12 @@ int main(){
         }
 	daftar();
         display();
-	cout << "\n\n>> Pilih: "; cin >> choose;
+	cout << "\n\n>> Pilih: "; 
+	cin >> choose;
         switch (choose){
+		case 1:
+            		push();
+            		break;
 	    
 	return 0; 
 }
