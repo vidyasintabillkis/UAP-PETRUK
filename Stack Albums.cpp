@@ -16,6 +16,19 @@ string album[]= {"EXO - The War",
 
 int harga[]= {275000, 320000, 289000, 312000, 278000, 315000, 273000, 326000, 265000, 284000};
 
+stack<int> tumpukan;
+int total = 0, input;
+
+void print(stack<int> x){
+    stack<int> xy = x;
+	  while (!xy.empty()) {
+        cout << ">> "<< album[xy.top() - 1]<<endl; cout << "   Harga:  Rp. " << harga[xy.top() - 1] << endl;
+        xy.pop();
+    }
+}
+
+int harga[]= {275000, 320000, 289000, 312000, 278000, 315000, 273000, 326000, 265000, 284000};
+
 void daftar(){
     cout << "=====================================\n"
          << "Daftar album yang tersedia:\n";
@@ -30,7 +43,8 @@ void push (){
 	cin >> input;
 	if (input > 10){
 		cout << "Album tidak tersedia!" << endl;
-	} else {
+	}
+	else {
 		tumpukan.push(input);
 		total = total + harga[input-1];
 	}
@@ -40,7 +54,8 @@ void push (){
 void size(){
 	if (!tumpukan.empty()){
 		cout << "Ada " << tumpukan.size() << " album di dalam tumpukan anda saat ini.\n";
-	} else{
+	}
+	else{
 		cout << "Tumpukan kosong\n";
 	}
 	getch();
@@ -61,9 +76,14 @@ void pay(){
 	cout << "Terimakasih telah berbelanja" <<endl;
 	getch(){
 }
-
+	
+void display(){ //berfungsi untuk menampilkan pilihan menu
+	cout << "\n1. Tambah Album"
+    	 << "\n2. Hapus album sebelumnya"
+         << "\n3. Banyak isi tumpukan"
+         << "\n4. Bayar"; 
+}
 
 int main(){
 	
-	return 0; 
 }
