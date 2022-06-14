@@ -95,5 +95,15 @@ void display(){ //berfungsi untuk menampilkan pilihan menu
 }
 
 int main(){
-	
+	int choose;
+    do {
+        cout << "Program pembelian album"<< endl;
+        if(!tumpukan.empty()){
+            cout << "Daftar tumpukan anda: " << endl ;
+            print(tumpukan);
+        }else {
+            cout << "[kosong]\n";
+        }
+	    
+	return 0; 
 }
