@@ -30,8 +30,7 @@ void push (){
 	cin >> input;
 	if (input > 10){
 		cout << "Album tidak tersedia!" << endl;
-	}
-	else {
+	} else {
 		tumpukan.push(input);
 		total = total + harga[input-1];
 	}
@@ -41,8 +40,7 @@ void push (){
 void size(){
 	if (!tumpukan.empty()){
 		cout << "Ada " << tumpukan.size() << " album di dalam tumpukan anda saat ini.\n";
-	}
-	else{
+	} else{
 		cout << "Tumpukan kosong\n";
 	}
 	getch();
@@ -67,4 +65,5 @@ void pay(){
 
 int main(){
 	
+	return 0; 
 }
