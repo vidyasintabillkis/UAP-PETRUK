@@ -27,8 +27,6 @@ void print(stack<int> x){
     }
 }
 
-int harga[]= {275000, 320000, 289000, 312000, 278000, 315000, 273000, 326000, 265000, 284000};
-
 void daftar(){
     cout << "=====================================\n"
          << "Daftar album yang tersedia:\n";
