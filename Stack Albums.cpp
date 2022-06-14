@@ -16,6 +16,8 @@ string album[]= {"EXO - The War",
 
 int harga[]= {275000, 320000, 289000, 312000, 278000, 315000, 273000, 326000, 265000, 284000};
 
+stack<int> tumpukan;
+int total = 0, input;
 
 void print(stack<int> x){
     stack<int> xy = x;
