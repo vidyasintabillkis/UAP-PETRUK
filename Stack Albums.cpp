@@ -108,9 +108,9 @@ int main(){
 	cout << "\n\n>> Pilih: "; 
 	cin >> choose;
         switch (choose){
-		case 1:
-            		push();
-            		break;
+	case 1:
+            	push();
+            	break;
 	    
 	return 0; 
 }
