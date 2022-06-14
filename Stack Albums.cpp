@@ -115,7 +115,9 @@ int main(){
 	case 2:
                 pop();
                 break;
-		
+			
+	}
+	system("cls"); 
 	}while(choose !=4);
 	return 0; 
 }
