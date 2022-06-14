@@ -49,6 +49,18 @@ void push (){
 	getch();
 }
 
+void pop(){
+	if(!tumpukan.empty()){
+        cout << "Data dihapus.\n";
+		tumpukan.pop();
+		total = total-harga[input-1];
+    }
+	else{
+        cout << "Tumpukan kosong\n";
+    }
+	getch();
+}
+
 void size(){
 	if (!tumpukan.empty()){
 		cout << "Ada " << tumpukan.size() << " album di dalam tumpukan anda saat ini.\n";
