@@ -73,8 +73,8 @@ void size(){
 
 void pay(){
 	int bayar, minus, kurang;
-	cout << "Total Pembelian\t : Rp. " << minus << endl;
-	cout << "Bayar\t\t : Rp. "; cin >> bayar;
+	cout << "Total Pembelian\t\t : Rp. " << minus << endl;
+	cout << "Bayar\t\t\t : Rp. "; cin >> bayar;
 	
 	while (bayar<total){
 		minus = total-bayar;
@@ -82,7 +82,7 @@ void pay(){
 		cout << "Bayar Kembali\t\t : " << "Rp. " ; cin >> kurang;
 		bayar += kurang;
 	}
-	cout << "Kembali\t\t : Rp. " << bayar-total <<endl;
+	cout << "Kembali\t\t\t : Rp. " << bayar-total <<endl;
 	cout << "Terimakasih telah berbelanja" <<endl;
 	getch(){
 }
