@@ -96,12 +96,12 @@ void display(){ //berfungsi untuk menampilkan pilihan menu
 
 int main(){
 	int choose;
-	do {
+	do{
         cout << "Program pembelian album" << endl;
         if(!tumpukan.empty()){
             cout << "Daftar tumpukan anda: " << endl ;
             print(tumpukan);
-        }else {
+        }else{
             cout << "[kosong]\n";
         }
 	daftar();
@@ -112,6 +112,8 @@ int main(){
 	case 1:
             	push();
             	break;
-	    
+	
+			
+	}while(choose !=4);
 	return 0; 
 }
