@@ -84,7 +84,7 @@ void pay(){
 	}
 	cout << "Kembali\t\t\t : Rp. " << bayar-total <<endl;
 	cout << "Terimakasih telah berbelanja" <<endl;
-	getch(){
+	getch(); 
 }
 	
 void display(){ //berfungsi untuk menampilkan pilihan menu
