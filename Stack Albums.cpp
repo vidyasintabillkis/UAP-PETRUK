@@ -54,7 +54,7 @@ void pop(){
 	if(!tumpukan.empty()){
         cout << "Data dihapus. \n";
 		tumpukan.pop();
-		total = total-harga[input-1];
+		total = total-harga[tumpukan.top()-1];
 	}else{
         cout << "Tumpukan kosong\n";
     }
