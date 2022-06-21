@@ -20,11 +20,10 @@ stack<int> tumpukan;
 int total = 0, input;
 
 void print(stack<int> x){
-    stack<int> xy = x;
-	  while (!xy.empty()) {
-        cout << ">> " << album[xy.top() - 1] << endl; 
-	cout << "   Harga:  Rp. " << harga[xy.top() - 1] << endl;
-        xy.pop();
+	  while (!x.empty()) {
+        cout << ">> " << album[x.top() - 1] << endl; 
+	cout << "   Harga:  Rp. " << harga[x.top() - 1] << endl;
+        x.pop();
     }
 }
 
